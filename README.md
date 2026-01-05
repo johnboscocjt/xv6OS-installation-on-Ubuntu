@@ -1,13 +1,11 @@
 # xv6OS-installation-on-Ubuntu
-```markdown
 # xv6 Installation & Configuration Guide (Ubuntu 2026)
 
-This guide documents the successful setup of the xv6-public (x86) operating system on a native Ubuntu environment, resolving common 2026-specific compilation and emulation errors.
-
 ## 1. Prerequisites & Toolchain
-
+This guide documents the successful setup of the xv6-public (x86) operating system on a native Ubuntu environment, resolving common 2026-specific compilation and emulation errors.
 Modern Ubuntu versions (Noble Tahr and later) have deprecated the generic qemu package. You must install the specific system emulators and 32-bit compatibility layers.
 
+```markdown
 ```bash
 sudo apt update
 sudo apt install git build-essential qemu-system-x86 gcc-multilib libc6-dev-i386
